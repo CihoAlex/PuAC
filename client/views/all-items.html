@@ -39,7 +39,7 @@
               name="loginUsername"
               autocomplete="loginName"
               required
-              placeholder="username"
+              placeholder="Nume utilizator"
               minlength="2"
             />
             <input
@@ -47,15 +47,15 @@
               type="password"
               name="loginPassword"
               id="loginPassword"
-              placeholder="password"
+              placeholder="Parola"
               minlength="2"
               required
               autocomplete="login-password"
             />
             <div id="errorsLogin"></div>
             <div class="info-auth">
-              <span>Don't have an account?</span>
-              <a href="#" id="openRegisterModal"> Register here</a>
+              <span>Nu ai cont?</span>
+              <a href="#" id="openRegisterModal"> Inregistrare</a>
             </div>
 
             <button class="btn green" type="submit">Login</button>
@@ -75,7 +75,7 @@
               type="text"
               name="nameRegister"
               autocomplete="nameRegister"
-              placeholder="Full Name"
+              placeholder="Nume complet"
               required
             />
             <input
@@ -83,7 +83,7 @@
               type="text"
               name="usernameRegister"
               autocomplete="username"
-              placeholder="Username"
+              placeholder="Nume utilizator"
               required
             />
             <input
@@ -91,7 +91,7 @@
               type="password"
               name="passwordRegister"
               autocomplete="passwordRegister"
-              placeholder="Password"
+              placeholder="Parola"
               required
             />
             <input
@@ -99,16 +99,16 @@
               type="password"
               name="confirmPasswordRegister"
               autocomplete="confirmPasswordRegister"
-              placeholder="Confirm Password"
+              placeholder="Confirma parola"
               required
             />
             <div id="errorsRegister"></div>
             <div class="info-auth">
-              <span>Already have an account?</span>
-              <a href="#" id="account"> Login here</a>
+              <span>Ai deja un cont?</span>
+              <a href="#" id="account"> Login aici</a>
             </div>
 
-            <button class="btn green" type="submit">Register</button>
+            <button class="btn green" type="submit">Inregistrare</button>
           </form>
         </div>
       </div>
@@ -136,13 +136,13 @@
 
             <li id="accountLi">
               <a title="Account" href="#" id="openLoginModal"
-                ><i class="far fa-user"></i> Account</a
+                ><i class="far fa-user"></i> Cont</a
               >
             </li>
             <li id="accountLiWithUsername" style="display: none">
               <a title="Account" href="#">
                 <i class="far fa-user"></i>
-                Welcome,
+                Bine ai venit,
               </a>
             </li>
             <li id="logoutLi" style="display: none">
@@ -170,7 +170,7 @@
                     data-type="offer"
                     name="title"
                     autocomplete="title"
-                    placeholder="Titlu*"
+                    placeholder="Titlu"
                     required
                   />
                 </div>
@@ -180,24 +180,24 @@
                     type="number"
                     name="price"
                     autocomplete="price"
-                    placeholder="Buget*"
+                    placeholder="Buget"
                     required
                   />
                   <select name="currency" class="mb-15 mr-10" required>
-                    <option value="">Select Currency*</option>
+                    <option value="">Selecteaza valuta</option>
                     <option value="RON">RON</option>
                     <option value="EURO">EURO</option>
-                    <option value="$">$</option>
+                    <option value="$">Dolar</option>
                   </select>
                   <select name="category" class="mb-15 mr-10" required>
-                    <option value="">Select Category*</option>
+                    <option value="">Selecteaza categorie</option>
                     <option value="Imobiliare">Imobiliare</option>
                     <option value="Electronice">Electronice</option>
                     <option value="Automobile">Automobile</option>
                     <option value="Utilaje">Utilaje</option>
                   </select>
                   <select name="privacy" class="mb-15 mr-10" required>
-                    <option value="">Select Privacy Settings*</option>
+                    <option value="">Selecteaza Public/Privat</option>
                     <option value="public">Vizibil Tuturor ( PUBLIC )</option>
                     <option value="private">Ascuns ( PRIVAT )</option>
                   </select>
@@ -205,7 +205,7 @@
                 <textarea
                   name="description"
                   autocomplete="description"
-                  placeholder="Descriere Oferta*"
+                  placeholder="Descriere Oferta"
                 ></textarea>
               </div>
             </div>
@@ -221,13 +221,13 @@
         <div class="flex justify-start">
           <h2>Achizitii</h2>
           <a id="downloadCSV" class="btn inline-block green space">
-            Download CSV
+            Descarca CSV
           </a>
         </div>
 
         <div class="filterContainer">
           <div class="filterBox">
-            <p>Filter by status (In Progress || Complete)</p>
+            <p>Filtreaza dupa status (In Progres sau Complet)</p>
 
             <div class="filters">
               <div class="filter item">
@@ -239,7 +239,7 @@
                   name="filterByStatus"
                   checked
                 />
-                <label for="filterByStatusInProgress">In Progress</label>
+                <label for="filterByStatusInProgress">In Progres</label>
               </div>
               <div class="filter item">
                 <input
@@ -255,7 +255,7 @@
             </div>
           </div>
           <div class="filterBox">
-            <p>Filter by category (Automobile, Imobiliare, Altele)</p>
+            <p>Filtreaza dupa categorie (Automobile, Imobiliare, Altele)</p>
 
             <div class="filters">
               <div class="filter item">
@@ -302,7 +302,7 @@
     <div class="wrapper row5">
       <div id="copyright" class="clear">
         <p class="fl_left">
-          Copyright &copy; 2018 - All Rights Reserved -
+          Copyright &copy; 2021 - All Rights Reserved -
           <a href="#">PuAc Team</a>
         </p>
         <p class="fl_right">Project by Alexandra and Alexandru</p>

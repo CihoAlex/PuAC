@@ -89,7 +89,7 @@ const checkIfUserIsAuth = () => {
       accountLiWithUsername.innerHTML = `
         <a title="Account" href="#">
             <i class="far fa-user"></i>
-            Welcome, ${tokenLogin.username}
+            Bine ai venit, ${tokenLogin.username}
         </a>
         `;
     }
@@ -114,12 +114,12 @@ const handleDataAfterSuccessAuth = (data = {}) => {
     accountLiWithUsername.innerHTML = `
             <a title="Account" href="#">
                 <i class="far fa-user"></i>
-                Welcome, ${data.name}
+                Bine ai venit, ${data.username}
             </a>
         `;
     clearForms();
   } else {
-    alert('ERROR: Username or password incorrect');
+    alert('ERROR: nume utilizator sau parola gresite');
   }
 };
 

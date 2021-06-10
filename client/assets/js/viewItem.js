@@ -148,7 +148,7 @@ const renderHTMLCommentForm = (_id, isCommentForOption = true) => {
           name="name"
           autocomplete="name"
           required
-          placeholder="Name*"
+          placeholder="Nume"
           minlength="3"
         />
         <input
@@ -157,7 +157,7 @@ const renderHTMLCommentForm = (_id, isCommentForOption = true) => {
           autocomplete="grade"
           step="0.01"
           max="10"
-          placeholder="Grade*"
+          placeholder="Nota"
           required
         />
       </div>
@@ -166,12 +166,12 @@ const renderHTMLCommentForm = (_id, isCommentForOption = true) => {
       name="comment"
       autocomplete="description"
       required
-      placeholder="Descriere*"
+      placeholder="Descriere"
       ></textarea>
       
       <div>
-        <button class="btn green inline-block" type="submit">Add Comment</button>
-        <button class="btn red inline-block" type="reset">Reset</button>
+        <button class="btn green inline-block" type="submit">Adauga comentariu</button>
+        <button class="btn red inline-block" type="reset">Resetare</button>
       </div>
 
     </form>
