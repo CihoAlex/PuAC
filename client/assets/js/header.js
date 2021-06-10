@@ -87,7 +87,7 @@ const checkIfUserIsAuth = () => {
         myItems.style.display = 'inline-block';
       }
       accountLiWithUsername.innerHTML = `
-        <a title="Account" href="#">
+        <a title="Cont" href="#">
             <i class="far fa-user"></i>
             Bine ai venit, ${tokenLogin.username}
         </a>
@@ -112,7 +112,7 @@ const handleDataAfterSuccessAuth = (data = {}) => {
     accountLiWithUsername.style.display = 'inline-block';
 
     accountLiWithUsername.innerHTML = `
-            <a title="Account" href="#">
+            <a title="Cont" href="#">
                 <i class="far fa-user"></i>
                 Bine ai venit, ${data.username}
             </a>

@@ -51,7 +51,7 @@ const generateHTMLForItems = (data = []) => {
           </article>
         </div>`;
 
-        if (status.toLowerCase() === "complete") {
+        if (status.toLowerCase() === "complet") {
           completeOptions += element;
         } else {
           inProgressOptions += element;
@@ -89,12 +89,12 @@ const handleCheckboxInput = ({ target: { name, checked, value } }) => {
 
   if (!inProgress) {
     filteredItems = filteredItems.filter(
-      (item) => item.status !== "In Progress"
+      (item) => item.status !== "In Progres"
     );
   }
   if (!complete) {
     filteredItems = filteredItems.filter(
-      (item) => item.status.toLowerCase() !== "complete"
+      (item) => item.status.toLowerCase() !== "complet"
     );
   }
   if (!automobile) {
